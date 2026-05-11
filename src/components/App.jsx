@@ -1,7 +1,7 @@
-import Header from "./Header";
-import About from "./About";
-import ArticleList from "./ArticleList";
-import blog from "../blog";
+import Header from "./components/Header";
+import About from "./components/About";
+import ArticleList from "./components/ArticleList";
+import blog from "./blog";
 
 function App() {
   return (
