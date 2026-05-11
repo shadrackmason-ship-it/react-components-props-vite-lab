@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import About from "./components/About";
-import ArticleList from "./components/ArticleList";
+import Header from "./Header";
+import About from "./About";
+import ArticleList from "./ArticleList";
 import blog from "./blog";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header name={blog.name} />
       <About image={blog.image} about={blog.about} />
       <ArticleList posts={blog.posts} />
